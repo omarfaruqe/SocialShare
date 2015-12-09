@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4250FAFA1C18AE3500593310 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4250FAF91C18AE3500593310 /* Social.framework */; };
 		42A10ECB1C18A9E100269B60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A10ECA1C18A9E100269B60 /* main.m */; };
 		42A10ECE1C18A9E100269B60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A10ECD1C18A9E100269B60 /* AppDelegate.m */; };
 		42A10ED11C18A9E100269B60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A10ED01C18A9E100269B60 /* ViewController.m */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4250FAF91C18AE3500593310 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		42A10EC61C18A9E100269B60 /* TwitterShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42A10ECA1C18A9E100269B60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		42A10ECC1C18A9E100269B60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4250FAFA1C18AE3500593310 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		42A10EBD1C18A9E100269B60 = {
 			isa = PBXGroup;
 			children = (
+				4250FAF91C18AE3500593310 /* Social.framework */,
 				42A10EC81C18A9E100269B60 /* TwitterShare */,
 				42A10EE21C18A9E200269B60 /* TwitterShareTests */,
 				42A10EED1C18A9E200269B60 /* TwitterShareUITests */,
@@ -501,6 +505,7 @@
 				42A10EF51C18A9E200269B60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42A10EF61C18A9E200269B60 /* Build configuration list for PBXNativeTarget "TwitterShareTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +514,7 @@
 				42A10EF81C18A9E200269B60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42A10EF91C18A9E200269B60 /* Build configuration list for PBXNativeTarget "TwitterShareUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +523,7 @@
 				42A10EFB1C18A9E200269B60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
